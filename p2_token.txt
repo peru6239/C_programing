@@ -1,0 +1,35 @@
+my code:
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a=3;
+
+    double const b=4;
+
+    float c=1.5;
+
+    char d='A';
+
+    printf("The value of a is %d\n",a);
+
+    printf("The value of a is %.2lf\n",b);
+
+    printf("The value of a is %.2f\n",c);
+
+    printf("The value of a is %c\n",d);
+
+    return 0;
+
+}
+
+my output:
+
+/tmp/oz0VKxLdih.o
+The value of a is 3
+The value of a is 4.00
+The value of a is 1.50
+The value of a is A

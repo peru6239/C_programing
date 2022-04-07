@@ -1,0 +1,30 @@
+my code:
+
+
+// My First c Program
+
+#include <stdio.h>
+
+int main()
+
+{
+    
+	printf("Hello World\n");
+    
+	printf("Welcome\n");
+    
+	return 0;
+
+}
+
+
+
+
+output:
+
+
+/tmp/oz0VKxLdih.o
+Hello World
+Welcome
+
+
