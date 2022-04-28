@@ -1,0 +1,31 @@
+\\input
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum;
+    printf("Enter your number here\n"  );
+    scanf("%d", &a);
+    printf("Enter your number here\n"  );
+    scanf("%d", &b);
+    sum=a+b;
+    if (sum>20)
+    {printf("sum of numbers is greater than 20");
+    }
+        else if (sum>10)
+       {printf("sum of numbers is greater than 10");
+    }
+    else 
+    {printf("sum of numbers is less than 10");
+    }
+}
+
+
+\\output
+/tmp/9EYLjq32Wz.o
+Enter your number here
+3
+Enter your number here
+2
+sum of numbers is less than 10
