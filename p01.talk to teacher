@@ -9,7 +9,7 @@ int main()
 
 {
     
-	printf("Hello World\n");
+	printf("talk to teacher\n");
     
 	printf("Welcome\n");
     
