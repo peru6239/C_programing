@@ -1,15 +1,19 @@
 #include <stdio.h>
-int add(int a,int b)
-{
-   
-    int c =a+b;
-}
-int main ()
-{
-int sum;
-sum=add(5,4);
-printf("sum is %d\n",sum);
-return 0;
-}
 
-OUTPUT:sum is 9
+void add()
+{
+  int a=3;
+  int b=5;
+  int c=a+b;
+  printf("The sum of a & b is= %d",c);
+    
+}
+  void main()
+  {
+      add();
+      
+  }
+
+OUTPUT:
+
+The sum of a & b is= 8
